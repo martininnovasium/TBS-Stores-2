@@ -1,0 +1,564 @@
+@charset "utf-8";
+/* CSS Document */
+
+.treatmentGrid .col-md-4
+{
+	padding-left:0px;
+	padding-right:0px
+}
+
+.hoverWrapper, .HPtopBar
+{
+	background-color:#ffffff;
+	opacity:1;
+}
+
+.hoverWrapper
+{
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+.productmasonry .col-md-8
+{
+	max-width:900px
+}
+
+.productmasonry .col-md-4
+{
+	max-width:450px
+}
+
+.productmasonry .container
+{
+	max-width:1360px
+}
+
+.hoverWrapper .widgetInfo
+{
+	xdisplay:none;
+	opacity:0;
+}
+
+
+.HPtopBar .hoverWrapper
+{
+	width:100%;
+	height:400px
+}
+
+.hoverWrapper
+{
+	width:100%;
+	height:500px
+}
+
+.fullHover .hoverWrapper
+{
+	height:400px
+}
+
+.highHeight .hoverWrapper
+{
+	width:100%;
+	xheight:550px
+}
+
+.HPtopBar .hoverWrapper .widgetTitle
+{
+	position:absolute;
+	left:35px;
+	bottom:60px;
+
+}
+
+.HPtopBar .hoverWrapper .widgetInfo
+{
+	position:absolute;
+	left:35px;
+	bottom:30px;
+
+}
+
+
+.hoverWrapper .widgetTitle
+{
+
+	 -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+
+}
+
+.hoverWrapper .widgetInfo {
+    text-transform: none;
+    font-size: 90%;
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -xwebkit-transform: translate3d(0,50px,0);
+    xtransform: translate3d(0,50px,0);
+}
+
+
+
+.hoverWrapper .widgetInfo {
+ position: absolute;
+ top: 40%;
+ left: auto;
+ right: auto;
+ padding: 10px 20px;
+ xbackground-color: #000;
+ font-size: 14px;
+ line-height: 1.6em;
+ min-height: 125px;
+ text-align: center;
+width: 100%;
+}
+
+.hoverWrapper .widgetTitle {
+    position: absolute;
+    bottom: 3px;
+    left: 3px;
+	right:3px;
+    padding: 15px 20px;
+}
+
+figure.effect-goliath:hover img {
+	-webkit-transform: translate3d(0,-80px,0);
+	transform: translate3d(0,-80px,0);
+}
+
+.hoverWrapper:hover .widgetTitle {
+	-webkit-transform: translate3d(0,-126px,0);
+	transform: translate3d(0,-126px,0);
+}
+
+.hoverWrapper:hover .widgetInfo {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+
+.hoverWrapper, .hoverWrapper p , .hoverWrapper h3, .hoverWrapper A
+{
+	COLOR:#FFF;
+}
+
+a, .hoverWrapper, .widgetInfo, .hoverShade
+{
+	-webkit-transition: all 0.7s ease-out;
+	-moz-transition: all 0.7s ease-out;
+	-ms-transition: all 0.7s ease-out;
+	-o-transition: all 0.7s ease-out;
+	transition: all 0.7s ease-out;
+}
+
+.hoverWrapper
+{
+
+	border:6px solid #fff;
+	position:relative;
+}
+
+.hoverWrapper:hover
+{
+	-webkit-filter: grayscale(0%);
+    -moz-filter:    grayscale(0%);
+    -ms-filter:     grayscale(0%);
+    -o-filter:      grayscale(0%);
+    filter: gray;
+}
+
+.hoverWrapper:hover
+{
+	xopacity:.7
+}
+
+.hoverWrapper:hover .widgetInfo
+{
+	opacity:.7;
+	xdisplay:inline-block
+}
+
+.hoverWrapper .hoverShade
+{
+	position:absolute;
+	left:0;
+	right:0;
+	bottom:0;
+	top:0;
+	opacity:0;
+	xbackground-image:url("/img/home_new/Triangle.png");
+	background-color:#cccccc;
+	background-repeat:no-repeat;
+	background-position:center;
+	border:6px solid #cf202E;
+}
+
+.hoverWrapper.noInfo:hover .hoverShade
+{
+	opacity:0;
+}
+
+.hoverWrapper:hover .hoverShade
+{
+	opacity:.7;
+}
+
+h3
+{
+	xborder-left:2px solid #fff;
+	xborder-bottom:2px solid #fff;
+	xpadding-left:15px;
+	xpadding-bottom:15px;
+}
+
+.boxesHome .col-md-6
+{
+	padding:0px
+}
+
+.widgetTitle
+{
+	xbackground-image: url(/img/menu_bg.png);
+	font-size:18px;
+	font-weight:800;
+	xborder-top:2px solid #fff;
+}
+
+.bluePlus
+{
+	color:#90c6f1 !important;
+	font-weight:700;
+	font-size:16px;
+	padding-top:10px
+}
+@media only screen and (max-width : 1230px) {
+.hoverWrapper {
+    width: 100%;
+    height: 445px;
+}
+
+.hoverWrapper
+{
+	background-size:100%;
+	background-position:top left;
+	background-repeat:no-repeat;
+}
+}
+
+@media only screen and (max-width : 1199px) {
+	
+.hoverWrapper {
+    width: 100%;
+    height: 380px;
+}
+
+.getinTouch {
+   height: 240px;
+   padding-top:30px
+}
+
+.getinTouch .btn {
+   margin-top:0px
+}
+
+h3 {
+    padding-left: 0px;
+    padding-bottom: 5px;
+}
+
+	.hoverWrapper .widgetInfo {
+    position: absolute;
+    padding: 10px 10px;
+    font-size: 12px;
+	xopacity:1;
+	min-height:105px;
+	    
+		background-color:transparent
+}
+
+.bluePlus {
+    margin-bottom: 0px;
+}
+
+.hoverWrapper .widgetTitle {
+    bottom: 108px;
+    padding: 5px 10px;
+}
+
+.widgetInfo .padding100
+{
+	padding:20px 0px
+}
+
+.hoverWrapper:hover .widgetTitle {
+	-webkit-transform: translate3d(0,0px,0);
+	transform: translate3d(0,0px,0);
+}
+
+	
+}
+
+@media only screen and (max-width : 991px) {
+	
+	.productmasonry .col-md-8
+	{
+		width:600px;
+		margin:auto;
+	}
+	
+	.productmasonry .col-md-4
+	{
+		width:450px;
+		margin:auto;
+	}
+	
+	.hoverWrapper .widgetInfo {
+    opacity: 1;
+	position:absolute;
+	top:auto;
+	bottom:-46px;
+	min-height:55px;
+}
+
+.hoverWrapper
+{
+	position:relative
+}
+
+.productmasonry .col-md-8 .hoverWrapper {
+    width: 100%;
+    height: 333px;
+}
+
+.productmasonry .col-md-4 .hoverWrapper {
+    width: 100%;
+    height: 500px;
+}
+
+.fullHover .hoverWrapper {
+    height: 300px;
+}
+
+.productmasonry div[class^="col-md"] {
+    padding-bottom: 35px;
+	margin-bottom:25px
+}
+
+.fullHover .hoverWrapper .widgetInfo {
+    bottom: -35px;
+}
+	
+}
+
+
+@media only screen and (max-width : 650px) {
+	
+	.productmasonry .col-md-8
+	{
+		width:380px;
+		margin:auto;
+	}
+	
+	.productmasonry .col-md-4
+	{
+		width:380px;
+		margin:auto;
+	}
+	
+	.hoverWrapper .widgetInfo {
+    opacity: 1;
+	position:absolute;
+	top:auto;
+	bottom:-46px;
+	min-height:55px;
+}
+
+.hoverWrapper
+{
+	position:relative
+}
+
+.productmasonry .col-md-8 .hoverWrapper {
+    width: 100%;
+    height: 211px;
+}
+
+.productmasonry .col-md-4 .hoverWrapper {
+    width: 100%;
+    height: 422px;
+}
+
+.fullHover .hoverWrapper {
+    height: 140px;
+}
+
+.productmasonry .btn, .widget_hoverbox .btn
+{
+	padding:5px;
+	width:100%;
+}
+
+.productmasonry div[class^="col-md"] {
+    padding-bottom: 35px;
+}
+
+.productmasonry .homeBottom .col-md-4 {
+    padding-bottom: 5px;
+	margin-bottom:10px
+}
+
+.fullHover .hoverWrapper {
+    background-size: auto 100%;
+}
+
+.fullHover .hoverWrapper .widgetInfo {
+    bottom: -46px;
+}
+
+.hoverWrapper .widgetInfo {
+    padding: 10px 0px;
+}
+
+.padding50.fullHover {
+    padding: 10px 0px 40px;
+}
+
+}
+
+
+
+ @media screen and (max-width:768px) {
+	 .hoverWrapper
+{
+	-webkit-filter: grayscale(0%);
+    -moz-filter:    grayscale(0%);
+    -ms-filter:     grayscale(0%);
+    -o-filter:      grayscale(0%);
+    filter: gray;
+}
+ }
+ 
+  @media screen and (max-width:413px) { 
+ .productmasonry .col-md-8 {
+    width: 320px;
+    margin: auto;
+}
+
+.productmasonry .col-md-4 {
+    width: 320px;
+    margin: auto;
+}
+
+.productmasonry .col-md-8 .hoverWrapper {
+    width: 100%;
+    height: 177px;
+}
+
+.productmasonry .col-md-4 .hoverWrapper {
+    width: 100%;
+    height: 342px;
+}
+  }
+ 
+  @media screen and (max-width:360px) {
+ .productmasonry .col-md-8 .hoverWrapper {
+    max-width: 310px;
+}
+
+.productmasonry .col-md-4 .hoverWrapper {
+    max-width: 310px;
+}
+
+.fullHover .hoverWrapper {
+    height: 110px;
+}
+  }
+ 
+/**  @media only screen and (max-width : 480px) {
+	.hoverWrapper .hoverShade {
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    opacity: .9;
+    xbackground-image: url(/img/home_new/Triangle.png);
+    background-color: orange;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 0px solid #ffffff;
+	display:none;
+} 
+.hoverWrapper
+{
+	position:relative;
+	min-height:345px;
+	background-size:auto 250px;
+	background-repeat:no-repeat;
+	background-position:top center;
+	width:260px;
+	margin:auto;
+	height:auto;
+	background-color:orange;
+}
+
+.hoverWrapper:hover .widgetInfo
+{
+	opacity:1;
+	background-color: orange;
+	position:relative;
+}
+
+.widgetInfo .padding100 {
+    padding: 0px 0px;
+}
+
+.hoverWrapper .widgetInfo{
+	position:relative;
+	opacity:1;
+	top:250px;
+	bottom:auto;
+	left:auto;
+	right:auto;
+	background-color: orange;
+}
+
+.hoverWrapper .widgetTitle{
+	display:none;
+}
+
+.team .col-md-3 {
+    width: 100%;
+
+}
+
+.teamImage
+{
+	display:inline-block;
+	position:absolute;
+	top:10px;
+	right:10px;
+}
+
+.teamDetail
+{
+	text-align:left;
+	margin-right:45px;
+	    margin-bottom: 2px;
+		line-height:1.2em
+}
+
+.small
+{
+	line-height:1.1em
+}
+
+.getinTouch {
+    margin-top: 40px;
+}
+  }
+  **/

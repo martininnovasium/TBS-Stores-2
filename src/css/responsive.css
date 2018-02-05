@@ -1,2 +1,691 @@
 /* CSS Document */
+ @media screen and (max-width:1440px) {
+.topCaro .carousel-inner .item
+{
+	min-height: 200px;
+	height: auto;
+}
+}
+ @media screen and (max-width:1199px) {
+.findstorebox { padding: 70px 40px; }
+.productList article { width: 49%; }
+.GiftPadding { padding: 35px 0px; }
+.benefitBox div[class^="col-md"] .lgray
+{
+	padding: 30px;
+	min-height: 380px;
+}
+.faq h4.panel-title { padding: 0px }
+.faq .panel-heading a
+{
+	padding: 15px 80px 25px 10px;
+	min-height: 80px;
+	height: auto;
+}
+}
+ @media screen and (max-width:800px) {
+.topImage.contestWin {
+    min-height: 500px;
+}
+ 
+ }
+ 
+ @media screen and (max-width:795px) {
+.KeyLine
+{
+	left: 0px;
+	margin-bottom: 10px
+}
+}
+ @media screen and (max-width:1023px) {
+.bannerBox
+{
+	margin: 50px auto 10px;
+	padding: 20px;
+}
+.topCaro h1 { font-size: 3em; }
+.topCaro h2 { font-size: 2em; }
+.topCaro h4 { font-size: 1.2em; }
+}
+ @media screen and (max-width:1000px) {
+.footerLinks div[class^="col-md-"]
+{
+	width: 33%;
+	display: inline-block;
+	vertical-align: top;
+}
+.community .padding75 { padding: 10px 0px }
+.padding75 { padding: 45px 0px; }
+.topSocial div[class^="col-md-"]
+{
+	width: 49%;
+	display: inline-block;
+}
+#logo-location .col-md-4 { display: none; }
+.giftSelection .col-md-3 { padding: 40px }
+.wrapLeftBorder { border-left: 0px solid #D8D8D8; }
+.signUp .col-md-3
+{
+	width: 25%;
+	display: inline-block;
+	vertical-align: top;
+}
+.signUp .col-md-9
+{
+	width: 74%;
+	display: inline-block;
+	vertical-align: top;
+}
+.mobileCenter { text-align: center }
+.mobileCenter .text-justify
+{
+	text-align: center;
+	padding: 25px 0px
+}
+.opening div[class^="col-md-"]
+{
+	width: 49%;
+	display: inline-block;
+	vertical-align: top;
+}
+.productList.edsb article { width: 49% }
+.anchorRight .col-md-5
+{
+	padding-left: 45px;
+	padding-right: 35px;
+}
+.navbar-nav
+{
+	float: none;
+	text-align: center;
+}
+.navbar-nav>li { float: none; }
+.emailClub .padding100 { padding-top: 0px }
+div[class^="col-md"] .lgray
+{
+	padding: 30px;
+	min-height: 200px !important;
+}
+#opportunities { text-align: Center }
+.addOverlay:before
+{
+	content: '';
+	position: Absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #ffffff;
+	opacity: .7;
+	z-index: 2;
+}
+.addOverlay > section
+{
+	z-index: 3;
+	position: relative
+}
+.giftSelection div[class^="col-md-"]
+{
+	width: 49%;
+	display: inline-block;
+	vertical-align: top;
+}
 
+.giftSelection .btn {
+   top:0px
+}
+.topLogo a { display: block; }
+.KeyLine { left: 0px }
+
+#logofooter .KeyLine { left: 20px }
+}
+ @media screen and (max-width:991px) {
+.littleAboutUs { position: relative; }
+.littleAboutUs:before
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background-color: #ffffff;
+	opacity: .8;
+	content: '';
+	display: block;
+}
+
+.searchbar select, .searchbar input {
+    margin: 15px 0px;
+}
+
+.searchbar
+{
+	display:none;
+}
+
+.missionStatement div[class^="col-md"]
+{
+	width:32%;
+	display:inline-block;
+}
+
+.missionStatement h3 {
+    font-size: 1.4em;
+}
+
+.stackBenefits
+{
+	display:block;
+}
+
+.stackBenefits .emailBenefits
+{
+	display:block;
+	margin-bottom:35px
+}
+
+.emailBenefits
+{
+	display:none;
+}
+}
+ @media screen and (max-width:800px) {
+#logofooter { padding-left: 20px }
+.customImage { background-position: top center; }
+
+
+}
+ @media screen and (max-width:767px) {
+	 /**
+.giftSelection div[class^="col-md-"]
+{
+	width: 100%;
+	display: inline-block;
+	vertical-align: top;
+}
+**/
+
+.giftSelection .btn {
+    padding: 5px 25px;
+}
+
+.giftSelection h4 {
+    font-size: 1.2em;
+}
+
+.giftSelection .col-md-3 {
+    padding: 20px 5px;
+}
+
+.giftSelection img {
+    margin-bottom: 5px;
+}
+
+.topSocial .col-md-8 { display: none !Important }
+.topSocial div[class^="col-md-"] { width: 100% !Important; }
+.mainLogo, .tbs-logo
+{
+	max-width: 270px;
+	height: auto;
+	display: inline-block;
+	margin-bottom: 0px
+}
+.submenu a
+{
+	font-size: 1.25em;
+	
+	padding: 15px;
+	width: 100%;
+	display: block;
+}
+.submenu
+{
+	padding: 15px 20px;
+	background-color: #F6F6F6;
+	box-shadow: 0 6px 8px 2px rgba(0,0,0,0.21);
+	text-align: center;
+}
+.productList.edsb article { xwidth: 100%; }
+
+
+.productList.edsb article.addBorder { border-left: 0px solid #cacaca; }
+.productList article { width: 100%; }
+
+.benefitBox div[class^="col-md"] .lgray
+{
+	padding: 30px;
+	min-height: 245px;
+}
+.locationControl button
+{
+	position: relative;
+	top: 0;
+	right: 0;
+}
+.searchbar .locationControl button
+{
+	position: relative;
+	top: 0;
+	right: auto;
+	padding: 16px 3px;
+}
+.footerLinks div[class^="col-md-"]
+{
+	width: 49%;
+	display: inline-block;
+	vertical-align: top;
+}
+.GiftPadding table td
+{
+	display: block;
+	padding: 5px 0px
+}
+.GiftPadding table tr { padding: 5px 0px 15px; display:block}
+.navbar-toggle { float: right; }
+}
+ @media screen and (max-width:767px) {
+.topCaro .carousel-control .glyphicon-chevron-left, .topCaro .carousel-control .glyphicon-chevron-right, .topCaro .carousel-control .icon-next, .topCaro .carousel-control .icon-prev
+{
+	width: 20px;
+	height: 40px;
+	margin-top: -10px;
+	font-size: 30px;
+}
+.topCaro .glyphicon-chevron-right:before
+{
+	background-image: url(/img/right_arrow.png) !important;
+	content: '';
+	width: 20px;
+	height: 40px;
+	display: block;
+	background-size: cover;
+}
+.topCaro .glyphicon-chevron-left:before
+{
+	width: 20px;
+	height: 40px;
+}
+
+.customImage
+{
+	display:none;
+}
+
+.anchorRight .col-md-5 {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.hideonDesk
+{
+	margin-top:30px
+}
+
+.GiftPadding {
+    padding: 15px 0px;
+}
+}
+ @media screen and (min-width:767px) {
+.hideonDesk
+{
+	display:none
+}
+
+ }
+
+ @media screen and (max-width:670px) {
+#logofooter .KeyLine { left: 0px }
+ }
+ @media screen and (max-width:650px) {
+.dropdown-menu a { text-align: Center }
+.xfooterLinks div[class^="col-md-"] { width: 100%; }
+
+.footerLinks div[class^="col-md-"] {
+    padding: 0px 2px 0px 10px;
+}
+.emailClub
+{
+	background-size: 400%;
+	padding-top: 20px;
+}
+.topImage h1
+{
+	font-size: 54px;
+	line-height: 1em;
+}
+.opening div[class^="col-md-"]
+{
+	width: 100%;
+	display: inline-block;
+	vertical-align: top;
+}
+.openingPadding { padding: 25px 0px; }
+
+.jobOptions article
+{
+	position:relative;
+	min-height:180px;
+	height:auto;
+}
+
+.jobOptions .article_detailbtn
+{
+	width: 100%;
+	text-align: center;
+	position:absolute;
+	bottom:0;
+	left:0;
+	right:0;
+}
+
+.jobOptions .article_title {
+    position:absolute;
+	top:10px;
+	left:0;
+	right:0;
+}
+
+.jobOptions .article_meta_prov {
+    position:relative;
+	padding-top:47px;
+	display:block;
+	    width: 100%;
+    text-align: center;
+}
+
+.jobOptions .article_location {
+    position:relative;
+	display:block;
+	    width: 100%;
+    text-align: center;
+}
+
+
+.jobOptions .article_detailbtn .btn
+{
+	width: 100%;
+	margin-bottom: 20px
+}
+.addGray
+{
+	padding: 50px 20px;
+	width: 100%;
+}
+.jobOptions .article_title
+{
+	width: 100%;
+	padding: 0px 0px;
+	text-align: center
+}
+jobOptions .article_title { font-weight: 500; }
+.subHeadCareers { display: none }
+.copyright { text-align: center }
+.copyright span { display: block; }
+.topImage, .renderMap { min-height: 400px; }
+.giftCardRight { padding-right: 0px }
+
+.GiftPadding table
+{
+	width:100%;
+}
+/** GREAT IDEAS**/
+.customImage p {
+   display:block
+}
+
+.anchorRight .col-md-7 img {
+	position:relative;
+}
+
+.anchorLeft .col-md-7 img {
+    position:relative;
+}
+
+.customImage img {
+    display: block;
+}
+
+.customImage
+{
+	background-image:none !Important;
+	height:auto !important;
+	    min-height: 150px;
+}
+
+.topImage.anchorCenter
+{
+	background-position:top center
+}
+
+
+.productList.edsb article {
+    min-height: 280px;
+}
+
+.productList article .article_image {
+    padding-left: 25px;
+    margin-bottom: 10px;
+}
+
+.jobOptions .article_title a
+{
+	font-size:1.4em;
+	font-weight:500;
+}
+
+
+}
+
+
+ @media screen and (max-width:620px) {
+.topImage.contestWin {
+    min-height: 400px;
+}
+ 
+ }
+ 
+  @media screen and (max-width:480px) {
+.topImage.contestWin {
+    min-height: 300px;
+}
+ 
+ }
+ 
+  @media screen and (max-width:360px) { 
+ .topImage.contestWin {
+    min-height: 100px;
+	padding: 20px 0px 55px;
+}
+  }
+ 
+ 
+ @media screen and (max-width:425px) {
+	 #sectionVideo iframe.mobileFrame
+	 {
+		 max-height:300px !important
+	 }
+	 
+ .mapStreet {
+    min-height: 250px;
+}
+
+#pano {
+    height: 250px;
+}
+
+.searchbar {
+    padding-bottom: 20px;
+}
+
+.searchbar select, .searchbar input {
+    margin: 15px 0px;
+}
+
+.topImage.anchorBGLeft .container {
+    min-height: 70px;
+    height: auto;
+}
+
+.topCaro h1 {
+    font-size: 2em;
+}
+
+.topCaro h2 {
+    font-size: 1.5em;
+}
+
+.bannerBox {
+    margin: 10px auto 10px;
+    padding: 10px;
+}
+
+.topCaro .btn {
+    padding: 5px 25px;
+}
+
+.text-justify h3{
+    text-align:left;
+}
+
+.topCaro .topText {
+    padding-top: 10px;
+}
+
+.topCaro h4 {
+    font-size: .9em;
+}
+
+
+.footerLinks div.last {
+    width: 100% !important;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.featuredTownBG {
+    margin-top: 50px;
+}
+
+.hideonPhone
+{
+	display:none;
+}
+
+
+ }
+   @media screen and (max-width:380px) {
+	   
+	   .emailClub .type_html
+{
+	width: 100%;
+	float: none;
+}
+
+.emailClub .name_postal {
+    width: 100%;
+    float: none;
+}
+
+.adjustSmallerSizeSignUp .col-md-9 {
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+   .adjustSmallerSizeSignUp
+   {
+	   padding-left:40px;
+	   padding-right:40px
+   }
+   
+   .topImage h1 {
+    font-size: 44px;
+    line-height: 1em;
+}
+
+.topImage {
+    min-height: 250px;
+}
+
+#mobilemenu .redTop
+{
+	display:block;
+}
+
+.storeDetailPanel #store_title {
+    padding: 20px 15px 0px;
+}
+
+.storeRow, .storeSocial {
+    position: relative;
+    padding: 2px 15px 20px;
+}
+
+.storeIcon {
+    left: 15px;
+}
+
+.storespecialhours {
+    padding: 10px 15px 10px;
+}
+
+.footerIcon
+{
+	display:none
+	
+   }
+   
+   .footerText {
+    padding-left: 0px;
+}
+
+.footerIconWrap:after {
+    content: '';
+    height: 0px;
+
+}
+
+.missionStatement h3 {
+    font-size: 1.2em;
+}
+
+h3 {
+    font-size: 1.9em;
+}
+
+.seenonTV
+{
+	max-width:110px;
+	height:auto;
+}
+
+#xcommunityties .paddingTop25
+{
+	    padding: 5px 0px 0px;
+}
+
+.topImage.featuredTown h2
+{
+	    position: absolute;
+    bottom: 0px;
+}
+
+
+   }
+   
+
+
+  @media screen and (max-width:360px) {
+ .bannerBox {
+   display:none
+}
+
+.productList.edsb article { width: 100%; }
+
+.videoCaro p
+{
+	display:none;
+}
+  }
+ 
+ 

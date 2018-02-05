@@ -258,9 +258,14 @@ $(document).ready(function(){
 		/** special hours**/
 		var hoursNoteArray = JSON.parse(article.meta.hours_note); 
 		for (var i = 0; i < hoursNoteArray.hoursArray.length; i++) {
-			if(new Date() >= new Date(hoursNoteArray.hoursArray[i].StartDate) && new Date() <= new Date(hoursNoteArray.hoursArray[i].EndDate)) {
+			var endDate = new Date(hoursNoteArray.hoursArray[i].EndDate);
+			var endDatePlusOne = endDate.setDate(endDate.getDate() + 1);
+			if(new Date() >= new Date(hoursNoteArray.hoursArray[i].StartDate) && new Date() < endDate) {
 				$("#store_specialhours").html(hoursNoteArray.hoursArray[i].title+hoursNoteArray.hoursArray[i].body);
 			}
+
+			console.log("today = " + new Date())
+			console.log("tomorrow = " + endDate)
 		}
 		
 		var lat = article.locations[0].lat;

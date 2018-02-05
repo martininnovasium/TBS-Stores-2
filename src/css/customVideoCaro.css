@@ -1,0 +1,91 @@
+.videoCaro{
+  .carousel-inner{
+    > .item{
+      transition: 500ms ease-in-out left;
+    }
+    .active{
+      &.left{
+        left:-50%;
+      }
+      &.right{
+        left:50%;
+      }
+    }
+    .next{
+      left: 50%;
+    }
+    .prev{
+      left: -50%;
+    }
+    @media all and (transform-3d), (-webkit-transform-3d) {
+      > .item{
+        // use your favourite prefixer here
+        transition: 500ms ease-in-out left;
+        transition: 500ms ease-in-out all;
+        backface-visibility: visible;
+        transform: none!important;
+      }
+    }
+  }
+  .carouse-control{
+    &.left, &.right{
+      background-image: none;
+    }
+  }
+}
+
+.videoCaro .carousel-inner>.item>a>img, .videoCaro .carousel-inner>.item>img, .videoCaro .img-responsive, .videoCaro .thumbnail a>img, .videoCaro .thumbnail>img {
+   display:inline-block;
+   width:100%;
+   max-width:100%;
+   height:auto;
+}
+
+.videoCaro  .videoIcon
+{
+	position:absolute;
+	left:45%;
+	right:auto;
+	top:28%;
+	width:auto !important;
+	height:auto !important
+}
+
+.videoCaro .carousel-caption {
+    right: 10%;
+    left: 5%;
+    padding-bottom: 30px;
+	text-align:left;
+}
+
+.carousel-caption {
+    text-shadow: 0 0px 0px rgba(0,0,0,0);
+	color:#ffffff;
+}
+
+.carousel-caption p{
+	color:#ffffff;
+}
+
+ @media screen and (min-width:1560px) {
+
+.videoCaro .videoIcon {
+    top: 40%;
+}
+
+ }
+ @media screen and (max-width:800px) {  
+ .videoCaro .videoIcon {
+    top: 42%;
+}
+ }
+ 
+ @media screen and (max-width:650px) { 
+ .videoCaro .videoIcon {
+   top:20px;
+   right:20px;
+   left:auto;
+   max-width:50px !important;
+   height:auto;
+}
+ }

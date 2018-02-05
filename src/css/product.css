@@ -15,12 +15,13 @@
 		cursor:pointer;
 	}
 	
-	.oldPrice
+	.oldPrice, .prodPriceWas
 	{
-	font-size: 16px;
+	font-size: 20px;
 	line-height: 26px;
-	color: #4A4A4A;
-font-weight: 400;
+	color: #000000;
+font-weight: 500;
+display:block;
 	}
 
 .article_meta_gallery,
@@ -152,6 +153,11 @@ display:none
 	xopacity:1;
 }
 
+.productList article {
+    min-height: 400px;
+	height:auto;
+}
+
 @media only screen and (max-width : 1230px) {
 	
 	.productList .article_image {
@@ -170,6 +176,68 @@ display:none
 
 .article_meta_gallery, .article_meta_pricez1, .article_meta_pricez2, .article_meta_pricez3, .article_meta_pricez4, .article_meta_pricem1, .article_meta_pricem2 {
     xfont-size: 1.7em;
+}
+}
+
+.edsb .article_meta_gallery,
+.edsb .article_meta_pricez1,
+.edsb .article_meta_pricez2,
+.edsb .article_meta_pricez3,
+.edsb .article_meta_pricez4,
+.edsb .article_meta_pricem1,
+.edsb .article_meta_pricem2,
+.edsb .article_meta_pricem3 {
+	display: none;
+	color:#DE002B;
+	font-size: 3em;	
+	font-weight: bold;	
+	line-height: 1.1em;
+	position:relative;
+	top:auto;
+	left:auto;
+	padding-left: 25px;
+	padding-top:20px
+}
+@media only screen and (max-width : 767px) {
+.productList.edsb .article_image {
+    width: 90%;
+	
+}
+
+.productList.edsb article .article_title {
+    height: auto;
+    min-height: 72px;
+}
+
+.productList.edsb article .article_image {
+    padding-left: 0px;
+    margin-bottom: 10px;
+}
+
+.productList.edsb article .article_title {
+    padding-left: 5px;
+}
+
+.productList.edsb article .article_excerpt {
+    padding-left: 5px;
+}
+
+.edsb .article_meta_gallery, .edsb .article_meta_pricez1, .edsb .article_meta_pricez2, .edsb .article_meta_pricez3, .edsb .article_meta_pricez4, .edsb .article_meta_pricem1, .edsb .article_meta_pricem2, .edsb .article_meta_pricem3 {
+    padding-left: 5px;
+    padding-top: 20px;
+}
+}
+
+@media only screen and (max-width : 413px) {
+	
+	.article_meta_gallery, .article_meta_pricez1, .article_meta_pricez2, .article_meta_pricez3, .article_meta_pricez4, .article_meta_pricem1, .article_meta_pricem2 {
+    top: 0px;
+    left: 0px;
+	    padding-left: 25px;
+}
+.article_meta_gallery, .article_meta_pricez1, .article_meta_pricez2, .article_meta_pricez3, .article_meta_pricez4, .article_meta_pricem1, .article_meta_pricem2, .article_meta_pricem3 {
+    position: relative;
+
 }
 }
 

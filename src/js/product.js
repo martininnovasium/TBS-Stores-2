@@ -49,7 +49,8 @@ $(document).ready(function() {
 		html += '   <div class="col-md-5">';
 		html += '    <div class="prodTitle"></div>';
 		html += '    <div class="prodDetails"></div>';
-		html += '    <div class="prodPriceWas"><span class="was"></span> <span class="price"></span></div>';
+		// html += '    <div class="prodPriceWas"><span class="was"></span> <span class="price"></span></div>';
+		html += '    <div class="prodPriceWas"><span class="price"></span></div>';
 		html += '    <div class="prodPrice"><span></span></div>';
 		html += '   </div>';
 		html += "  </div>";
@@ -91,15 +92,18 @@ $(document).ready(function() {
 	$(".productList.expandWidth .renderOldPrice article").each(function(i) {
 		if (productDebug) console.log("product article.each("+i+")");
 		var d = $(this).find(".article_item").attr("data-was");
+		console.log(d);
 		if (typeof(d)!="undefined") {
 			if (productDebug) console.log("product article.each: d=["+d+"]{"+d.indexOf(":")+"}");
 			if (d.indexOf(":")>-1) {
 				d = d.split(":");
 			} else {
-				d = ['WAS:',d];
+				//d = ['WAS:',d];
+				d = [d];
 			}
 			if (productDebug) console.log("product article.each: d=",d);
-			$(this).find("div[class*='article_meta_price']").append("<span class='oldPrice'><br/>"+d[0]+" "+d[1]+"</span>");
+			//$(this).find("div[class*='article_meta_price']").append("<span class='oldPrice'><br/>"+d[0]+" "+d[1]+"</span>");
+			$(this).find("div[class*='article_meta_price']").append("<span class='oldPrice'><br/>"+d[0]+"</span>");
 		}
 	});
 
