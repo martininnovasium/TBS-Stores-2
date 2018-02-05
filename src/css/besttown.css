@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+
+.win150 .container
+{
+	width:100%;
+	background-image:url("/img/banners/kids_canada_150_bg.jpg");
+	background-size:cover;
+	position:relative;
+	overflow:hidden;
+}
+
+.win150
+{
+	position:relative;
+	overflow:hidden;
+}
+
+.win150 .id_html
+{
+	position:relative;
+}
+
+.paddingTop55
+{
+	padding-top:150px;
+	min-height:550px
+}
+
+
+.flag150
+{
+	display:inline-block;
+	position:absolute;
+	left:0;
+	bottom:0;
+}
+
+.happy150
+{
+	display:inline-block;
+	position:absolute;
+	right:0;
+	top:0;
+}
+	
+	img
+	{
+		max-width:100%;
+		height:auto;
+	}
+	
+	.paddingTop30, .signupCard
+	{
+		padding-top:30px;
+	}
+	
+	  @media all and (max-width: 1440px) {
+
+.paddingTop55 {
+    padding-top: 100px;
+}
+	  }
+	  
+	   @media all and (max-width: 1400px) {
+	.happy150
+{
+	max-width:27%;
+}
+
+.paddingTop55 {
+    min-height: 450px;
+}
+
+	  }
+	   @media all and (max-width: 1200px) {	  
+	  .flag150 {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    max-width: 25%;
+}
+
+.town
+{
+	max-width:50%;
+}
+	   }
+	  
+	   @media all and (max-width: 991px) {
+.flag150 {
+    display: inline-block;
+    position: relative;
+}
+.happy150
+{
+	position: relative;
+}
+
+.happy150, .flag150 {
+    max-width: 48%;
+}
+
+.town {
+    max-width:100%;
+}
+
+	  }
+ @media all and (max-width: 991px) {	  
+	  .paddingTop55 {
+    padding-top:50px
+}
+ }
+
+
+

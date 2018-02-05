@@ -1,0 +1,40 @@
+#locationform1 input,
+#locationform1 select {
+	color: #000000;
+}
+#locationform2 input,
+#locationform2 select {
+	color: #000000;
+}
+
+#location {
+    background-color: #FFFFFF;
+	border:0px solid #ffffff;
+}
+
+#location-change p
+{
+	margin:20px 0px
+}
+
+#location-change input
+{
+	top:20px;
+	position:relative;
+}
+
+#location
+{
+		color: #4A4A4A;	
+		font-size: 18px;	
+		font-weight: 500;	
+		line-height: 25px;
+		text-transform:uppercase;
+		width:100%;
+		text-align:right
+}
+
+.redcolor
+{
+	color:#CF112B
+}

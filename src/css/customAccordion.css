@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+.accordion-heading{
+	background-color:#cc0000;
+	padding:5px 10px;
+	border:2px solid #ffffff;
+}
+
+.accordion-heading a{
+	color:#ffffff;
+}
+
+
+.canadaDay .accordion
+{
+	width:90%;
+	max-width:650px;
+	margin:0 auto;
+}
+
+.canadaDay table
+{
+	max-width:450px;
+	margin:10px auto;
+	width:100%;
+}
+
+.canadaDay table tr:nth-child(even)
+{
+	background-color:#e2e2e2;
+}
+
+.canadaDay table td
+{
+	padding:5px 10px
+}

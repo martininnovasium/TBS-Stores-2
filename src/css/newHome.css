@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+.fullWidthcanada  .container
+{
+	
+	background-color: #ffffff;
+    padding: 15px 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.fullWidthcanada img
+{
+	max-width:100%;
+	height:auto;
+}
+
+.addPadding
+{
+    top: 20px;
+    position: relative;
+}
+
+.fullWidth .container
+{
+	width:100%;
+	text-align:center
+}
+
+.HPBoxBig
+{
+	    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+    overflow: hidden;
+	margin-bottom:20px;
+	width:100%;
+	max-width:1440px;
+	margin:0 auto 20px;
+}
+
+.HPBoxBig p
+{
+	margin-bottom:0px;
+}
+
+.paddingBottom50
+{
+	padding-bottom:50px
+}
+
+@media screen and (max-width: 991px) 
+{
+.fullWidthcanada  .container
+{
+	width:100%;
+	
+}
+
+.fullWidthcanada .container img
+{
+	width:90%;
+	height:auto;
+}
+}
+

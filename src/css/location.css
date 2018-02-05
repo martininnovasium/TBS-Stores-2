@@ -1,0 +1,135 @@
+.locationmodal .modal-content {
+	padding: 40px;
+}
+
+.pac-container {
+	z-index: 10000 !important;
+	top: -8px;
+}
+.pac-matched {
+}
+.pac-icon {
+}
+.pac-item {
+}
+.pac-item-selected {
+}
+.pac-item-query {
+}
+
+
+#location {
+	font-size:10pt;
+	background-color:#e2e2e2;
+	padding:1px 12px;
+	color:#666666;
+	margin-bottom:5px;
+	width:auto;
+	float:left;
+	position:relative;
+	left:5px;
+	border:1px solid #cccccc;
+	border-radius:14px 14px 14px 14px;
+}
+
+#location-mask {
+	display:none;
+	background-image:url('/img/bg-fadein-location.png');
+	//-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+	filter:alpha(opacity=40);
+	opacity:0.9;
+	position:fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index:1000;
+}
+
+#location-check, #location-change, #location-redirect {
+	display:none;
+	position:fixed;
+	top:50%;
+	left:50%;
+	margin-top:-120px;
+	margin-left:-200px;
+	width:450px;
+	background:#eeeeee;
+	padding:10px 15px 10px 15px;
+	//border:1px solid #eeeeee;
+	border:10px solid #ffffff;
+	z-index:1001;
+	-moz-box-shadow:    0px 0px 10px #ccc;
+	-webkit-box-shadow: 0px 0px 10px #ccc;
+	box-shadow:         0px 0px 10px #ccc;
+}
+
+/*
+.choosecity, .choosepostal {
+	display:none;
+}
+*/
+
+#location-found {
+}
+	#location-found ul, #location-found li {
+		padding: 0;
+		margin: 0;
+		list-style:none;
+	}
+	#location-found a {
+		color:#666666;
+		text-decoration:none;
+	}
+	#location-found a:hover {
+		text-decoration:underline;
+	}
+
+#location-close {
+    background-image: url("/img/fancy_close.png");
+    background-position: -30px 0;
+    cursor: pointer;
+    height: 30px;
+    position: absolute;
+    right: -20px;
+    top: -20px;
+    width: 30px;
+    z-index: 1103;
+}
+
+.toplocation {
+	display: none;
+}
+#location-change .current {
+	display: none;
+}
+#location-change .current span {
+	font-weight: bold;
+}
+
+#location-change input {
+	background-color:#ffffff;
+	border:1px solid #cccccc;
+	width: 99%;
+}
+	#location-change input.loading {
+		background-color: #EEEEEE;
+		background-image: url("/img/icon_loading_mini.gif");
+		background-position: right 1px;
+		background-repeat: no-repeat;
+		border:1px solid #cccccc !important;
+		color: #888888 !important;
+		cursor: default;
+	}
+
+
+.button-Red {
+	background-color: #E01823;
+    border: medium none;
+    border-radius: 9px 9px 9px 9px;
+    color: #FFFFFF;
+    font: bold 13pt arial;
+    height: 30px;
+    overflow: hidden;
+    text-transform: uppercase;
+}

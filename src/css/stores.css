@@ -1,0 +1,48 @@
+
+.id_storeslist {
+	
+}
+.id_storeslist .article_item {
+	border-top: 1px solid #DDDDDD;
+	padding: 10px 0;
+}
+.id_storeslist .article_item.last {
+	border-bottom: 1px solid #DDDDDD;
+}
+
+.article_title {
+	width: 30%;
+	float:left;
+}
+.article_locations {
+	width: 60%;
+	float:left;
+}
+
+.article_locations address {
+	height: 22px;
+	margin: 0;
+}
+
+.article_locations .address,
+.article_locations .city,
+.article_locations .provstate,
+.article_locations .postalzip {
+	float: left;
+	margin-left: 6px;
+}
+.article_locations .city:before,
+.article_locations .provstate:before {
+	content: ", ";
+}
+.article_locations .postalzip:before {
+	content: " ";
+}
+
+
+.article_locations .country,
+.article_locations .email,
+.article_locations .phone,
+.article_locations .website {
+	display: none;
+}
