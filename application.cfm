@@ -34,7 +34,7 @@ setdomaincookies = "No">
 	<cfset ArrayAppend(Application.custom.domains, ["tbsstores2dev.innovasium.com",	"D2FC2C88-D7A5-4275-9DC3-3B41AFD7BE38",	"tbs",	"The Bargain Shop"])/>
 	<cfset ArrayAppend(Application.custom.domains, ["rastores2dev.innovasium.com",	"C46C5B09-BF6E-495E-98BF-757821ED7825",	"ra",	"Red Apple Stores"])/>
 <cfelse>
-	<cfset ArrayAppend(Application.custom.domains, ["tbsstores2.innovasium.com,www.tbsstores.com,www.tbsstores.net,tbsstores2dev.innovasium.com",			"D2FC2C88-D7A5-4275-9DC3-3B41AFD7BE38",	"tbs",	"The Bargain Shop"])/>
+	<cfset ArrayAppend(Application.custom.domains, ["tbsstores2.innovasium.com,www.thebargainshop.com,www.tbsstores.com,www.tbsstores.net,tbsstores2dev.innovasium.com",			"D2FC2C88-D7A5-4275-9DC3-3B41AFD7BE38",	"tbs",	"The Bargain Shop"])/>
 	<cfset ArrayAppend(Application.custom.domains, ["rastores2.innovasium.com,www.redapplestores.com,www.redapplestores.ca,rastores2dev.innovasium.com",	"C46C5B09-BF6E-495E-98BF-757821ED7825",	"ra",	"Red Apple Stores"])/>
 </cfif>
 	

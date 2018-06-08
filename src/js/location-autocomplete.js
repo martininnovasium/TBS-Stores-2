@@ -8,10 +8,14 @@ https://maps.googleapis.com/maps/api/js?key=AIzaSyBQeUOo4totpuLp86zn3phlvDIsDdzv
 
 $(function() {
 	$(locationSelector).submit(function(){
+        if (locationautocompleteDebug) {console.log("location-autocomplete.submit()");}
 		var i = $(this).find("input[name=article_location_search]").data("i")
-		findStore(i);
+		/*findStore(i);*/
 		return false;
 	});
+	$("input[name=article_location_search]").keypress(function(){
+        if (locationautocompleteDebug) {console.log("location-autocomplete.input.keypress()");}
+    });
 });
 
 $(document).ready(function(){

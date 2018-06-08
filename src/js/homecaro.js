@@ -12,7 +12,7 @@ $(document).ready(function()
 			var contentCaroHeight = $(".topCaro .item").height();
 			var mainContainerCaroHeight = 300;
 			var differenceCaroHeight = (contentCaroHeight - mainContainerCaroHeight) / 2;
-			console.log(contentCaroHeight,mainContainerCaroHeight,differenceCaroHeight);
+			//console.log(contentCaroHeight,mainContainerCaroHeight,differenceCaroHeight);
 			
 			$(".topCaro .topText").css("padding-top",differenceCaroHeight);
 		});

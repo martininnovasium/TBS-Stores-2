@@ -168,6 +168,10 @@ a:focus, button:focus { outline: none; }
 /* ------------------------- */
 
 
+.margin-bottom-0 {
+	margin-bottom: 0;
+}
+
 #logoslice p { margin-bottom: 0px }
 .navbar-default
 {
@@ -1649,6 +1653,10 @@ body
 	padding-left: 45px;
 	padding-right: 35px
 }
+
+.product-slice-container iframe{
+	max-width: 100%;
+}
 body, html { overflow-x: hidden }
 .signUp ul { padding-left: 20px }
 .wrapNumber
@@ -2094,7 +2102,7 @@ body, html { overflow-x: hidden }
 a.btn:focus, .careersAvailable a:focus, .careersAvailable a:hover { color: #ffffff }
 .signUp .btn { margin-bottom: 20px }
 .instoreTitle { padding: 55px 0px 10px }
-.id_stack-roles { color: #FFFFFF; }
+.id_stack-roles { color: #EFEFEF; }
 .id_stack-roles .item
 {
 	float: right;
@@ -2231,6 +2239,10 @@ h4.bannerBox { font-size: 1.8em }
 
 .charcoalBg {
 	background-color: #232020;
+}
+
+.green-gradient-bg {
+	background-image: url(/img/green-gradient-banner.jpg);
 }
 
 

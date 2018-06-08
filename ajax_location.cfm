@@ -131,7 +131,11 @@
 			
 		</cfif>
 	</cfif>
-		
+
+	<cfif action EQ "infotest">
+        <cfset result['session'] = session />
+    </cfif>
+        
 	<cfif action EQ "set">
 		<cfif name EQ "">
 			<cfset result['status'] = -1 />

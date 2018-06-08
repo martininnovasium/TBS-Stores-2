@@ -1,4 +1,4 @@
-var locationDebug = false;
+var locationDebug = true;
 var locationURL = "/ajax_location.cfm";
 var locationSelector = ".locationControl form";
 var locationObjects = [];
@@ -11,9 +11,19 @@ $(function() {
 	$(locationSelector).submit(function(){
 		if (locationDebug) {console.log("location.form.submit()");}
 		var i = $(this).find("input[name=article_location_search]").attr("data-location-i");
-		findStore(i);
+		//findStore(i);
 		return false;
 	});
+	$("input[name=article_location_search]").keydown(function(e){
+        if (locationDebug) {console.log("location.input.keydown()");}
+        var keyCode = e.keyCode || e.which;
+        if (locationDebug) {console.log("location.input.keydown: keyCode=["+keyCode+"]");}
+        if (keyCode === 13) { 
+            e.preventDefault();
+            //$(this).trigger('focus');
+            return false;
+        }        
+    });
 });
 
 $(document).ready(function(){
@@ -84,7 +94,7 @@ function locationAjax(action,data){
 		dataType: 'json',
 		type: "POST",
 		success: function(data, textStatus, XMLHttpRequest){
-			if (locationDebug) console.log("locationInit: ajax",data);
+			if (locationDebug) console.log("locationAjax: ajax",data);
 			if (data.status==1) {
 				mystore = data.mystore;
 				if (mystore.id>0) {
@@ -92,26 +102,37 @@ function locationAjax(action,data){
 					$("#location-change .current a").attr('href',mystore.url).text(mystore.title);
 					$("#location-change .current").show();
 				} else if (mystore.id==0) {
-					if (locationDebug) console.log("locationInit: ajax: location not set");
+					if (locationDebug) console.log("location.locationAjax: ajax: location not set");
 					//locationWindow(true,'change');
 					locationWindow(true,'check');
 				}
 				$('.toplocation').show();
-				
-				
-				if(mystore['prov'] == "BC")
-					{
-						$(".provFilter.provIncludeBC").parent().parent().addClass("showthis");
-						$(".provFilter.provExcludeBC").parent().parent().addClass("hidethis");
-					}
-					else
-					{
-						$(".provFilter.provIncludeBC").parent().parent().addClass("hidethis");
-						$(".provFilter.provExcludeBC").parent().parent().addClass("showthis");
-					}
-					
-					
-				if (locationDebug) console.log("locationInit: ajax: mystore=",mystore);
+                
+                if (typeof(mystore['prov'])!="undefined") {
+if (locationDebug) console.log("location.locationAjax: prov=["+mystore['prov']+"]");
+                    if (mystore['prov'] == "BC")
+                        {
+                            $(".provIncludeBC").parent().parent().addClass("showthis");
+                            $(".provExcludeBC").parent().parent().addClass("hidethis");
+                        }
+                        else
+                        {
+                            $(".provIncludeBC").parent().parent().addClass("hidethis");
+                            $(".provExcludeBC").show().parent().parent().addClass("showthis");
+                        }
+                    if(mystore['prov'] == "AB")
+                        {
+                            $(".provIncludeAB").parent().parent().addClass("showthis");
+                            $(".provExcludeAB").parent().parent().addClass("hidethis");
+                        }
+                        else
+                        {
+                            $(".provIncludeAB").parent().parent().addClass("hidethis");
+                            $(".provExcludeAB").show().parent().parent().addClass("showthis");
+                        }
+                }
+                
+				if (locationDebug) console.log("location.locationInit: ajax: mystore=",mystore);
 				
 				if (typeof(mystoreInit)=="function") {mystoreInit();}
 

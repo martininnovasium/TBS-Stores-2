@@ -22,8 +22,21 @@
 			pageTitle = Application.custom.domains[i][4];
 		}	
 	}
+	//pageTitle = pageTitle & " (#session['myzone']#)";
+    
+Request.debugLog("redirect_article.init()");
+    
+	pageTitleTmp = Request.page.getTitle();
+    if (pageTitle NEQ "" AND pageTitleTmp NEQ "") {
+        pageTitle = pageTitle & " : ";
+    }
+    if (pageTitleTmp NEQ "") {
+        pageTitle = pageTitle & REReplace(pageTitleTmp,"(\\n)"," ","all");
+    }
+    
 	//pageTitle = Application.locations.roles[session['location_role_id']].title;
 	//pageTitle = "";
+    /*
 	if (StructKeyExists(session,'location_role_id')) {
 		if (Request.page.getTitle(session['location_role_id']) NEQ "") {
 			pageTitle = pageTitle & " : " & REReplace(Request.page.getTitle(session['location_role_id']),"(\\n)"," ","all");
@@ -33,6 +46,7 @@
 			}
 		}
 	}
+    */
 
 </cfscript>
 <cfif pageExists>
@@ -57,6 +71,8 @@
 	<link rel="shortcut icon" type="image/x-icon" href="/src/img/#sectionPath#/favicon.ico" />
 	<link rel="icon" type="image/png" href="/src/img/#sectionPath#/favicon.png" />
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 <!--%article_google_structured_data%-->
 <script type="text/javascript">
 var myzone = '#session['myzone']#';
