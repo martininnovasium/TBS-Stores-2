@@ -1,0 +1,191 @@
+#joinform .form-group.name_act {
+    text-align: center;
+}
+#joinform .btn {
+	xbox-shadow: 0 0px 0px 0 rgba(0,0,0,0.5);
+    border: 0px;    
+}
+#joinform .btn:hover {
+    background-color: #D62A2E;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+#joinform .postaltext {
+    font-size: 1em;
+    line-height: 1em;    
+}
+@media screen and (max-width:780px) {
+    #joinform .postaltext {
+        margin-top: 5px;
+    }
+}
+#joinform .subtext {
+    font-size: .9em;
+    line-height: 1.2em;    
+    margin-top: 40px;
+}
+#joinform .form-group {
+    padding-bottom: 5px;
+}
+#joinform .type_checkbox.form-group {
+    margin-bottom: 5px;
+}
+#joinform a {
+	text-decoration: none;
+    font-weight: bold;
+}
+#joinform input[type="text"],
+#joinform input[type="email"] {
+	height: 55px;
+	xwidth: 100%;
+	border: 1px solid #4A4A4A;
+	border-radius: 0px;
+	background-color: #FFFFFF;
+	xmargin: 10px 0px;
+    font-size: 20px;
+    color: #4a4a4a;
+}
+#joinform .checkboxbox {
+    position: relative;
+}
+#joinform .checkboxbox label {
+    padding-left: 25px;
+}
+#joinform input[type="checkbox"] {
+    position: absolute;
+    left: 0;
+}
+
+/*
+.emailClub .btn
+{
+	text-align: center;
+	border-radius: 0px;
+	background-color: #D62A2E;
+	border: 0px;
+	padding: 10px 45px;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 21px;
+	box-shadow: 0 0px 0px 0 rgba(0,0,0,0.5);
+	margin-top: 35px
+}
+*/
+/*
+.emailClub
+{
+	xbackground-image: url("/img/enter_to_win_bg_top.png");
+	xbackground-color: #D62A2E;
+	background-size: 100%;
+	padding: 50px 0px 50px;
+	xcolor: #fff;
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+.emailClub > section
+{
+	xbackground-image: url(" /img/enter_to_win_bg_left.png"), url(" /img/enter_to_win_bg_right.png");
+	xbackground-position: top left, top right;
+	background-repeat: repeat-y;
+}
+.xemailClub .col-md-6.id1.first
+{
+	padding-top: 80px;
+	float: right
+}
+.smtext
+{
+	padding-top: 20px;
+	margin-top: 20px;
+	border-top: 1px solid #ffffff;
+	color: #ffffff;
+}
+.signup td
+{
+	width: 100%;
+	display: block;
+}
+.emailClub .id2.last { padding-top: 40px }
+.email-club .graphic { text-align: Center; }
+.joinform input[type="text"], .emailClub input[type="email"]
+{
+	height: 55px;
+	width: 100%;
+	border: 1px solid #4A4A4A;
+	border-radius: 0px;
+	background-color: #FFFFFF;
+	margin: 10px 0px
+}
+.emailClub label { display: block !important; }
+.postal input
+{
+	width: auto;
+	display: inline-block;
+}
+.signup-sm, .details
+{
+	font-size: 13px;
+	line-height: 1.1em;
+	position: relative;
+	left: 10px;
+	width: 50%;
+	display: inline-block;
+	padding-top: 15px;
+	vertical-align: top;
+}
+.emailClub .name_postal
+{
+	width: 50%;
+	float: left;
+}
+.emailClub .type_html
+{
+	width: 50%;
+	float: right;
+}
+.emailClub .btn
+{
+	text-align: center;
+	border-radius: 0px;
+	background-color: #D62A2E;
+	border: 0px;
+	padding: 10px 45px;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 21px;
+	box-shadow: 0 0px 0px 0 rgba(0,0,0,0.5);
+	margin-top: 35px
+}
+.emailClub .form-control
+{
+	font-size: 20px;
+	color: #4a4a4a;
+}
+.emailClub .htmlbox
+{
+	font-size: .9em;
+	line-height: 1.1em;
+	padding-top: 15px
+}
+.emailClub a
+{
+	color: #CF112B;
+	text-decoration: none
+}
+*/
+ .emailClub ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+ color: #4a4a4a;
+}
+.emailClub ::-moz-placeholder { /* Firefox 19+ */
+ color: #4a4a4a;
+}
+.emailClub :-ms-input-placeholder { /* IE 10+ */
+ color: #4a4a4a;
+}
+.emailClub :-moz-placeholder { /* Firefox 18- */
+ color: #4a4a4a;
+}

@@ -1,3 +1,4 @@
+/* v1.0 */
 @import '/src/css/nav.css';
 #header { }
 #contents { }
@@ -94,6 +95,15 @@ a
 }
 .clear { clear: both; }
 strong { }
+
+.img-responsive {
+	max-width: 100%;
+	height: auto;
+}
+
+.margin-auto {
+	margin:auto;
+}
 .btn
 {
 	text-align: center;
@@ -265,6 +275,11 @@ a:focus, button:focus { outline: none; }
 	xright: 0;
 	xz-index: 5;
 }
+#header .items,
+#header .items .item {
+    position: relative;
+}
+
 #header section > .container
 {
 	width: 95%;
@@ -715,6 +730,7 @@ div[class^='article_meta']
 	width: 100%;
 	display: block;
 }
+/*
 .emailClub .id2.last { padding-top: 40px }
 .email-club .graphic { text-align: Center; }
 .details { }
@@ -745,11 +761,15 @@ div[class^='article_meta']
 	padding-top: 15px;
 	vertical-align: top;
 }
+*/
+/*
 .emailClub .name_postal
 {
 	width: 50%;
 	float: left;
 }
+*/
+/*
 .emailClub .type_html
 {
 	width: 50%;
@@ -781,6 +801,13 @@ div[class^='article_meta']
 	line-height: 1.1em;
 	padding-top: 15px
 }
+.emailClub a
+{
+	color: #CF112B;
+	text-decoration: none
+}
+
+*/
  .emailClub ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
  color: #4a4a4a;
 }
@@ -792,11 +819,6 @@ div[class^='article_meta']
 }
 .emailClub :-moz-placeholder { /* Firefox 18- */
  color: #4a4a4a;
-}
-.emailClub a
-{
-	color: #CF112B;
-	text-decoration: none
 }
 .moveUp
 {
@@ -1478,8 +1500,8 @@ img
 	cursor: pointer;
 	text-align: right;
 	position: absolute;
-	top: 5px;
-	right: 10px
+	top: 0px;
+	right: 0px
 }
 .navbar-toggle { float: left; }
 #header section > .container
@@ -1499,8 +1521,7 @@ img
 	position: absolute;
 	right: 10px;
 }
-.navbar-toggle
-{
+.navbar-toggle {
 	background-image: url("/img/menu_icon.png");
 	background-size: cover;
 	background-position: center;
@@ -1508,6 +1529,10 @@ img
 	height: 26px;
 	border: 0px solid transparent;
 }
+.topSocial .navbar-toggle {
+    margin: 5px 0 0 0;
+}
+
 .navbar-toggle:hover, .navbar-toggle:focus { background-color: transparent!important }
 .navbar-nav>li { display: block; }
 .navbar-nav
@@ -1657,7 +1682,7 @@ body
 .product-slice-container iframe{
 	max-width: 100%;
 }
-body, html { overflow-x: hidden }
+/*body, html { overflow-x: hidden }*/
 .signUp ul { padding-left: 20px }
 .wrapNumber
 {
@@ -1775,8 +1800,8 @@ body, html { overflow-x: hidden }
 	float: right;
 	text-align: right
 }
-.jobOptions article:nth-child(even) { background-color: #F0F0F0 }
-.jobOptions article { padding: 10px 15px }
+.jobOptions article:nth-child(odd) { background-color: #F0F0F0 }
+.jobOptions article, .province-wrapper h4 { padding: 10px 15px }
 .submenu a
 {
 	font-size: 1.25em;
@@ -2102,7 +2127,11 @@ body, html { overflow-x: hidden }
 a.btn:focus, .careersAvailable a:focus, .careersAvailable a:hover { color: #ffffff }
 .signUp .btn { margin-bottom: 20px }
 .instoreTitle { padding: 55px 0px 10px }
-.id_stack-roles { color: #EFEFEF; }
+.id_stack-roles {
+    color: #EFEFEF;
+    overflow:hidden;
+    
+}
 .id_stack-roles .item
 {
 	float: right;
@@ -2197,7 +2226,11 @@ a.btn:focus, .careersAvailable a:focus, .careersAvailable a:hover { color: #ffff
 h4.bannerBox { font-size: 1.8em }
 .paddingBottom25 { padding-bottom: 25px; }
 .dropdown-menu { padding: 0px 0; }
-.productList.edsb .article_detail_partial { text-align: Center }
+.productList.edsb .article_detail_partial { 
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+}
 .topImage.anchorBGLeft { background-position: top left; }
 .name_specialoffer fieldset { width: 100% }
 .searchSite #searchForm .searchText
@@ -2254,4 +2287,64 @@ h4.bannerBox { font-size: 1.8em }
 .hidethis
 {
 	display:none !important;
+}
+
+#homeoffice {
+	padding-top: 60px;
+    margin-top: -60px;
+}
+
+#currentStore {
+	padding-top: 60px;
+    margin-top: -60px;
+}
+
+.border-white {
+	border: 6px solid white;
+}
+
+.hnp-categories-subnvigation {
+	display: none;
+}
+
+.hnp-categories-subnvigation a {
+	margin: 0 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.article_category_list .panel-heading {
+	display: none;
+}
+
+.form-group.search label {
+	display: none;
+}
+
+.press-releases-search .form-group .col-md-3,
+.press-releases-search .form-group .col-md-9 {
+	width: 100%;
+	margin: 0;
+}
+
+.press-releases-search .btn:hover {
+	background-color: #D62A2E;
+}
+
+.article_category_list .list-group-item.active, 
+.article_category_list .list-group-item.active:focus, 
+.article_category_list .list-group-item.active:hover {
+	background-color: #EEEEEE;
+	border-color: inherit;
+}
+
+.press-release-detail h1 {
+	font-size: 3em;
+}
+
+@media screen and (max-width: 767px) {
+	.hnp-categories-subnvigation {
+		text-align: center;
+	}
 }
