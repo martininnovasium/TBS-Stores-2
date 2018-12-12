@@ -15,7 +15,7 @@ $(document).ready(function(){
 		if (joinDebug) console.log("promotion.ready: .emailClub .btn.click()");
 	});
 	
-	joinAjax({});
+	joinAjax(location.search.replace("?",""));
 	
 });
 
